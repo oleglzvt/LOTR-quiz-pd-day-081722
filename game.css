@@ -1,0 +1,55 @@
+.choice-container {
+    display: flex;
+    margin-bottom: .5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: .1rem solid rgb(86, 165, 235, .25);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+    width: 65px;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a475;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.hud-main-text {
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
